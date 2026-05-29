@@ -1,4 +1,3 @@
-````markdown
 # 📊 Data Analytics Dashboard Project
 
 ## Overview
@@ -81,49 +80,3 @@ Data-Analytics-Dashboard/
 ├── dashboard/
 ├── README.md
 └── requirements.txt
-````
-
----
-
-# ▶️ How to Run
-
-## Clone the Repository
-
-```bash
-git clone <repository-link>
-```
-
-## Install Required Libraries
-
-```bash
-pip install -r requirements.txt
-```
-
-## Run Jupyter Notebook
-
-```bash
-jupyter notebook
-```
-
-## Open Power BI Dashboard
-
-* Open the `.pbix` file using Power BI Desktop
-
----
-
-# 🔮 Future Improvements
-
-* Add machine learning models
-* Automate data pipelines
-* Integrate real-time datasets
-* Deploy dashboard online
-
----
-
-# 👨‍💻 Author
-
-**Saket Jha**
-Data Analytics | SQL | Python | Power BI
-
-```
-```
