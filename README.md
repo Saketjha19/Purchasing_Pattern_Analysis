@@ -13,8 +13,7 @@ The final outcome of the project is an interactive Power BI dashboard that helps
 |------|----------|
 | Python | Data preprocessing and analysis |
 | Pandas & NumPy | Data manipulation |
-| Matplotlib & Seaborn | Data visualization |
-| SQL (PostgreSQL/MySQL) | Data querying and analysis |
+| SQL (PostgreSQL) | Data querying and analysis |
 | Power BI | Dashboard creation |
 | Jupyter Notebook | Development environment |
 
@@ -35,7 +34,6 @@ The final outcome of the project is an interactive Power BI dashboard that helps
 ## 3. Exploratory Data Analysis (EDA)
 - Performed statistical analysis
 - Identified trends and correlations
-- Created visualizations for better understanding
 
 ## 4. SQL Analysis
 - Imported cleaned dataset into SQL database
