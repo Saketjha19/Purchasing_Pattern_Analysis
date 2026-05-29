@@ -1,19 +1,10 @@
-# 📊 Data Analytics Project
+````markdown
+# 📊 Data Analytics Dashboard Project
 
 ## Overview
-This project focuses on performing end-to-end data analytics using Python, SQL, and Power BI. The workflow includes data loading, exploratory data analysis (EDA), data cleaning, SQL-based analysis, dashboard creation, and presentation of insights through reports and slides.
+This project focuses on analyzing and visualizing data using Python, SQL, and Power BI. The project workflow includes data cleaning, exploratory data analysis (EDA), SQL querying, and dashboard development to generate meaningful business insights.
 
-The objective of this project is to extract meaningful business insights from raw data and present them in a clear, visual, and decision-friendly format.
-
----
-
-# 📁 Dataset
-The dataset used in this project contains structured data related to business operations, sales, customers, or other analytical domains.
-
-### Dataset Features
-- Multiple numerical and categorical columns
-- Missing values and duplicate records handled during preprocessing
-- Suitable for SQL querying and dashboard visualization
+The final outcome of the project is an interactive Power BI dashboard that helps users understand trends, performance metrics, and important patterns within the dataset.
 
 ---
 
@@ -21,116 +12,118 @@ The dataset used in this project contains structured data related to business op
 
 | Tool | Purpose |
 |------|----------|
-| Python | Data cleaning, preprocessing, and EDA |
+| Python | Data preprocessing and analysis |
 | Pandas & NumPy | Data manipulation |
 | Matplotlib & Seaborn | Data visualization |
-| SQL (PostgreSQL/MySQL) | Querying and analysis |
-| Power BI | Interactive dashboard creation |
+| SQL (PostgreSQL/MySQL) | Data querying and analysis |
+| Power BI | Dashboard creation |
 | Jupyter Notebook | Development environment |
-| Gamma | Presentation creation |
 
 ---
 
 # 🔄 Project Workflow
 
-## 1. Data Loading
-- Imported dataset using Python
-- Checked dataset structure and datatypes
-- Identified null values and duplicates
+## 1. Data Collection & Loading
+- Imported the dataset into Python
+- Checked data structure and datatypes
+- Identified missing values and duplicates
 
-## 2. Exploratory Data Analysis (EDA)
+## 2. Data Cleaning
+- Removed duplicate entries
+- Handled null values
+- Standardized column names and formatting
+
+## 3. Exploratory Data Analysis (EDA)
 - Performed statistical analysis
-- Analyzed trends, distributions, and correlations
+- Identified trends and correlations
 - Created visualizations for better understanding
-
-## 3. Data Cleaning
-- Removed duplicate records
-- Handled missing values
-- Standardized column names and formats
 
 ## 4. SQL Analysis
 - Imported cleaned dataset into SQL database
-- Executed queries for:
+- Wrote SQL queries for:
   - Filtering and sorting
   - Aggregations
   - Joins and subqueries
-  - Business insight generation
+  - Business insights
 
 ## 5. Power BI Dashboard
 - Built an interactive dashboard
 - Added KPI cards, charts, filters, and slicers
-- Visualized important trends and performance metrics
-
-## 6. Reporting & Presentation
-- Created a report summarizing findings
-- Designed a presentation using Gamma
+- Visualized business performance and trends
 
 ---
 
 # 📊 Dashboard Features
-- KPI Cards
+- KPI Metrics
 - Trend Analysis
-- Category-wise Performance
-- Interactive Filters
-- Comparative Analysis Charts
+- Category-wise Insights
+- Interactive Filters & Slicers
+- Comparative Charts
 
 ---
 
-# 🚀 Key Insights
-- Identified major trends and patterns in the dataset
+# 🚀 Key Outcomes
+- Extracted actionable insights from raw data
 - Improved data quality through preprocessing
-- Generated actionable insights using SQL and visualization tools
-- Built a professional dashboard for decision-making support
+- Built a professional and interactive dashboard
+- Enhanced decision-making through visualization
 
 ---
 
 # 📂 Project Structure
 
 ```bash
-Data-Analytics-Project/
+Data-Analytics-Dashboard/
 │
 ├── data/
 ├── notebooks/
 ├── sql_queries/
 ├── dashboard/
-├── reports/
-├── presentation/
 ├── README.md
 └── requirements.txt
-```
+````
 
 ---
 
 # ▶️ How to Run
 
 ## Clone the Repository
+
 ```bash
 git clone <repository-link>
 ```
 
 ## Install Required Libraries
+
 ```bash
 pip install -r requirements.txt
 ```
 
 ## Run Jupyter Notebook
+
 ```bash
 jupyter notebook
 ```
 
 ## Open Power BI Dashboard
-- Open the `.pbix` file in Power BI Desktop
+
+* Open the `.pbix` file using Power BI Desktop
 
 ---
 
 # 🔮 Future Improvements
-- Add machine learning models
-- Automate ETL pipeline
-- Deploy dashboard online
-- Integrate real-time data sources
+
+* Add machine learning models
+* Automate data pipelines
+* Integrate real-time datasets
+* Deploy dashboard online
 
 ---
 
 # 👨‍💻 Author
-**Saket Jha**  
+
+**Saket Jha**
 Data Analytics | SQL | Python | Power BI
+
+```
+```
